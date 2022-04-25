@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    margin-top: 2rem;
+    display: flex;
+    width: 48rem;
+    background-color: white;
+    color: black;
+}
+.video{
+    height: 100%;
+    background-color: black;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.desc{
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    height: 5rem;
+    padding-top: 1rem;
+}
+.progress-div {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.progress-div h5{
+    padding-left: 1rem;
+}
+.progress-div .progress{
+    width: 100%;
+    height: .5rem;
+    background-color: wheat;
+    display: flex;
+    align-items: flex-start;
+}
+.progress-div .progress span{
+    width: 10%;
+    background-color:rgb(168, 61, 61);
+    height: 100%;
+}
